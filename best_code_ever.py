@@ -7,8 +7,8 @@ number = 4
 def total(price, number):
     return price * number
 
-def div(price, number):
-    return price / number
+def exp(price, number):
+    return price ** number
 
 print("The total amount is %s"%total(price, number))
 
